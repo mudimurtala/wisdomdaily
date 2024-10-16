@@ -19,7 +19,7 @@ const getPosts = (collectionName, callback) => {
             querySnapshot.forEach((doc) => {
                 posts.push({ id: doc.id, ...doc.data() });
             });
-            callback(posts); // Pass the posts to the provided callback function
+            callback(posts);
         })
         .catch((error) => {
             console.error("Error getting posts: ", error);
