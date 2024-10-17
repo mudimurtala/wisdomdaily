@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WisdomDaily - Resource Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 24px;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            margin-left: 15px;
+        }
+        main {
+            margin: 50px;
+        }
+        .search-bar {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .resource-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .resource-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            width: 30%;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .resource-title {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .resource-description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .resource-buttons {
+            display: flex;
+            justify-content: flex-start;
+        }
+        .resource-buttons button {
+            background-color: #333;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">WisdomDaily</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="user-profile.html">Profile</a>
+        <a href="discussion-forum.html">Forum</a>
+        <a href="notifications.html">Notifications</a>
+    </div>
+</header>
+
+<main>
+    <input type="text" class="search-bar" placeholder="Search resources...">
+
+    <div class="resource-grid">
+        <div class="resource-card">
+            <div class="resource-title">Traditional African Proverbs</div>
+            <div class="resource-description">A collection of wise sayings and proverbs passed down through generations.</div>
+            <div class="resource-buttons">
+                <button>View</button>
+                <button>Like</button>
+                <button>Share</button>
+            </div>
+        </div>
+        
+        <div class="resource-card">
+            <div class="resource-title">Modern Technology Trends</div>
+            <div class="resource-description">An article discussing the latest trends in technology and how youth are leveraging it.</div>
+            <div class="resource-buttons">
+                <button>View</button>
+                <button>Like</button>
+                <button>Share</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
